@@ -13,6 +13,11 @@ export CALL = 'ec1zzz-666'
 In Docker, the way to export variables is to define them on the ```docker run``` execution, on a execution line similar to this:
 
 ```
- 
+docker run \
+    -d --restart unless-stopped \
+    --name uspidermqtt \
+    -e SERVERMQTT="127.0.0.1" \
+    -e CALL="ec1zzz-666" \
+    ea1het/uspider-mqtt:latest 
 ```
 
