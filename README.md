@@ -2,7 +2,7 @@
 uSpider-MQTT ham radio cluster server client that ports telemetry data to MQTT
 
 
-## Note: .env file format to Docker variables
+### Note: .env file format to Docker variables
 When this app runs out of a container it uses .env file to load config. The file format is as follows:
 
 ```
