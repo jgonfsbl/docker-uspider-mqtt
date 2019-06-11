@@ -7,7 +7,7 @@ When this app runs out of a container it uses .env file to load config. The file
 
 ```
 export SERVERMQTT = '127.0.0.1'
-export CALL = 'ec1zzz-666'
+export CALL = 'ec1zzz-6'
 ```
 
 In Docker, the way to export variables is to define them on the ```docker run``` execution, on a execution line similar to this:
