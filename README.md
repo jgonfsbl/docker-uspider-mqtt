@@ -17,7 +17,7 @@ docker run \
     -d --restart unless-stopped \
     --name uspidermqtt \
     -e SERVERMQTT="127.0.0.1" \
-    -e CALL="ec1zzz-666" \
+    -e CALL="ec1zzz-6" \
     ea1het/uspider-mqtt:latest 
 ```
 
