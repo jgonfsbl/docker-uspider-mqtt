@@ -21,3 +21,12 @@ docker run \
     ea1het/uspider-mqtt:latest 
 ```
 
+## Build command
+```
+docker build \
+    --build-arg VCS_REF=`git rev-parse \
+    --short HEAD` \
+    --build-arg BUILD_DATE=`date -u +"%Y-%m-%d"` \
+    --build-arg VERSION=v1.0 \
+    -t ea1het/uspider-mqtt:v1.0 .
+```
